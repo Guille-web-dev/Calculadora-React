@@ -1,8 +1,8 @@
 .containerCalculator{
   width: 16rem;
-  padding: 1rem;
   border-radius: 10px;
   background-color: black;
+  padding: 1rem;
 }
 .key-containerKey{
   margin-top: 1rem;
@@ -37,11 +37,20 @@
   text-align: end;
   align-items: end;
   width: 96%;
-  height: 6rem;
+  height: 5rem;
   background-color: rgb(40, 39, 39);
   color: white;
   border:double 4px rgb(141, 139, 139);
   font-weight: 500;
   font-size: 1.5rem;
   outline: none;
+}
+
+@media (max-width:390px) {
+  .containerCalculator{
+    width: 90%;
+  }
+  .input-result{
+    height: 5rem;
+  }
 }
