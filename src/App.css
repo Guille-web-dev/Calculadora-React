@@ -46,7 +46,12 @@
   outline: none;
 }
 
-@media (max-width:390px) {
+@media (max-width:410px) {
+  .mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .containerCalculator{
     width: 90%;
   }

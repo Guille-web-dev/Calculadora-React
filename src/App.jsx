@@ -3,9 +3,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="containerCalculator">
-      <div className="containerKey">
-        <ContainerKey />
+    <div className="mainContainer">
+      <div className="containerCalculator">
+        <div className="containerKey">
+          <ContainerKey />
+        </div>
       </div>
     </div>
   );
